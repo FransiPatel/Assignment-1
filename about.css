@@ -1,0 +1,122 @@
+/* To add space between sections and prevent overlap */
+.aboutus {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top:25%;
+}
+.about-text{
+    margin-left:50px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    margin-top:25%;
+}
+.about-text h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 57px;
+    color: #000000;
+}
+
+.line-container {
+    width: 238px;
+    height: 7px;
+    display: flex;
+    background: none;
+}
+
+.line-thick {
+    width: 156px;
+    height: 7px;
+    background-color: #A9A9A9;
+    border-radius: 4px 0 0 4px;
+}
+
+.line-thin {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #A9A9A9;
+    margin-top: 3px;
+}
+
+
+.info {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2C2C2C;
+    margin-top: 20px;
+}
+
+.more-info{
+    padding:25px 40px 0px 0px;
+}
+
+.more-info p{
+    padding-top:10px;
+}
+
+.more-info a{
+    text-decoration: none;
+    color:#2C2C2C
+}
+@media (max-width: 992px) {
+    .aboutus {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 500px;
+    }
+}
+
+/* For mobile screens (width <= 768px) */
+@media (max-width: 768px) {
+    .aboutus {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 60px;
+    }
+    .about-image img {
+        margin-top: 100%; /* Reduce further for smaller screens */
+    }
+}
+
+/* For extra-small mobile screens (width <= 576px) */
+@media (max-width: 576px) {
+    .aboutus {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 40px;
+    }
+    .about-image img {
+        margin-top: 110%; /* Minimal margin on small screens */
+    }
+}
+
+/* Media query for screens between 992px and 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .aboutus {
+        padding-top: 55px;
+        padding-bottom: 55px;
+        margin-top: 500px; /* Adjusted for intermediate screen size */
+    }
+    .about-image img {
+        margin-top: 40px; /* Moderate top margin */
+    }
+    .about-text {
+        margin-left: 30px; /* Reduced margin to fit better on medium screens */
+    }
+    .about-text h1 {
+        font-size: 42px; /* Slightly smaller font size for better fit */
+        line-height: 52px;
+    }
+    .info {
+        font-size: 16px; /* Reduce font size slightly */
+        line-height: 25px;
+    }
+}

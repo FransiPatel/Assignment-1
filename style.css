@@ -1,0 +1,167 @@
+@import url('fonts.css');
+body,
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    left: 130px;
+    position: relative;
+}
+
+.navbar-nav {
+    width: 472px;
+    height: 21px;
+    top: 0px;
+    margin-right: 40px;
+}
+
+nav{
+    background: transparent;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse.bg-white {
+        background-color: white;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        height: 300px;
+        z-index: 1050;
+        padding-top: 1rem;
+    }
+
+    .navbar-brand img{
+        height:70%;
+        width:70%;
+    }
+
+}
+
+
+.asset1 {
+    background-image: url('images/asset1.svg');
+    background-repeat: no-repeat;
+    width: 119px;
+    height: 111px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.asset2 {
+    position: absolute;
+    overflow: hidden;
+    overflow-x: hidden;
+    width: 359px;
+    height: 376px;
+    right: -100px;
+    top: -14px;
+    background: url('images/asset2.svg') no-repeat;
+    z-index: -1;
+}
+
+.image-container {
+    background-image: url('images/asset3.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+    height: 76.2%;
+    top: 350px;
+    left: 0;
+}
+
+
+.vectorobject img {
+    position: absolute;
+    /* width: 100%; */
+    /* height: 100%; */
+    left: 142.19px;
+    top: 63.8%;
+    background: transparent;
+    border: none;
+}
+
+.image1 {
+    background-image: url('images/image1.svg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -6px;
+    top: 175px;
+    background-repeat: no-repeat;
+    z-index:-1;
+}
+
+/* Base styling for hero text */
+.hero-text {
+    padding: 2rem;
+    /* Adds padding for a balanced layout */
+    font-family: "Rubik", sans-serif;
+    margin-top:10%;
+    margin-left:10%;
+    width:560px;
+}
+
+.hero-text h1 {
+    font-weight: 500;
+    font-size: 3.5vw;
+    /* Scales with viewport width */
+    line-height: 1.2;
+    color: #000000;
+    max-width: 90%;
+    /* Limits the max width for better readability */
+}
+
+.hero-text p {
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #2C2C2C;
+    max-width: 100%;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .hero-text {
+        padding: 1.5rem;
+        /* Adjust padding for smaller screens */
+    }
+
+    .hero-text h1 {
+        font-size: 5vw;
+        /* Increase font size for readability */
+    }
+
+    .hero-text p {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 6vw;
+        /* Adjust further for extra small screens */
+    }
+
+    .hero-text p {
+        font-size: 0.8rem;
+    }
+}
+
+.asset4 {
+    background: url('images/asset4.svg');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 645px;
+    right:-90%;
+    background-repeat:no-repeat;
+    
+}
