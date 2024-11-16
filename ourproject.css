@@ -1,0 +1,33 @@
+#ourproject{
+    margin-top:50px;
+}
+
+#ourproject .line-container {
+    width: 362px;
+    height: 7px;
+    display: flex;
+    background: none;
+}
+
+#ourproject .line-thick {
+    width: 103px;
+    height: 7px;
+    background-color: #A9A9A9;
+    border-radius: 4px;
+}
+
+#ourproject .line-thin {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #A9A9A9;
+    margin-top: 3px;
+}
+
+#ourproject img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-images{
+    margin-left:auto;
+}

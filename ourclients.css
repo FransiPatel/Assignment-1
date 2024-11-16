@@ -1,0 +1,35 @@
+#ourclients .line-container {
+    width: 310px;
+    height: 7px;
+    display: flex;
+    background: none;
+}
+
+#ourclients .line-thick {
+    width: 104px;
+    height: 7px;
+    background-color: #A9A9A9;
+    border-radius: 4px;
+}
+
+#ourclients .line-thin {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #A9A9A9;
+    margin-top: 3px;
+}
+
+#ourclients img{
+    margin-top:50px;
+}
+
+.asset9{
+position: absolute;
+width: 179px;
+height: 404px;
+left: -26px;
+top: 5206px;
+background: url('images/asset9.svg');
+background-repeat: no-repeat;
+
+}

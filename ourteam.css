@@ -1,0 +1,58 @@
+#ourteam {
+    margin-top: 50px;
+}
+
+#ourteam h5 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+
+.asset52 {
+    position: absolute;
+    width: 366px;
+    height: 431px;
+    left: 0px;
+    top: 3724px;
+    background: url('images/asset52.svg');
+    z-index: -1;
+}
+
+.team-member {
+    padding: 0 70px;
+}
+
+.asset83 {
+    position: absolute;
+    width: 371.17px;
+    height: 476.12px;
+    left: 1363.23px;
+    top: 4147px;
+    background: url('images/asset8.svg');
+    transform: rotate(4.76deg);
+
+}
+
+#ourteam .line-container {
+    width: 241px;
+    height: 7px;
+    display: flex;
+    background: none;
+}
+
+#ourteam .line-thick {
+    width: 101px;
+    height: 7px;
+    background-color: #A9A9A9;
+    border-radius: 4px;
+}
+
+#ourteam .line-thin {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #A9A9A9;
+    margin-top: 1px;
+}
