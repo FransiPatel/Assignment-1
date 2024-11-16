@@ -1,13 +1,21 @@
 .footer {
     background-color: #BFDBFF;
-    width: 1340px;
-    height: 208px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    max-width: 1340px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
 }
 
 .footer h6 {
+    font-size: 16px;
     color: #000;
+    margin-bottom: 10px;
 }
 
 .footer p,
@@ -20,14 +28,11 @@
 .footer ul {
     padding-left: 0;
     list-style-type: none;
+    margin: 10px 0;
 }
 
 .footer ul li i {
     color: #007bff;
-}
-
-.footer small {
-    color: #666;
 }
 
 .footer ul li img {
@@ -35,21 +40,80 @@
     width: 16px;
 }
 
+.footer small {
+    color: #666;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    /* Center align on smaller screens */
+}
+
 .head {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 221%;
+    line-height: 1.5;
     color: #000000;
+    margin-bottom: 10px;
 }
-
 
 .list-items {
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 31px;
+    line-height: 2.5;
     color: #2C2C2C;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .footer {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center-align items */
+        text-align: center;
+        /* Center text */
+        padding: 30px 15px;
+    }
+
+    .footer h6 {
+        font-size: 15px;
+    }
+
+    .footer ul {
+        margin: 10px 0;
+    }
+
+    .footer ul li {
+        font-size: 13px;
+    }
+
+    .footer small {
+        font-size: 12px;
+    }
+
+    .social {
+        margin-left: -50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 20px 10px;
+    }
+
+    .footer h6 {
+        font-size: 14px;
+    }
+
+    .footer ul li {
+        font-size: 12px;
+    }
+
+    .footer small {
+        font-size: 11px;
+    }
 }
